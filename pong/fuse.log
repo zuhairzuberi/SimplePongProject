@@ -1,0 +1,25 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -o "/home/student2/s22srith/coe758/project 2/pong2/pong/vga_isim_beh.exe" -prj "/home/student2/s22srith/coe758/project 2/pong2/pong/vga_beh.prj" "work.vga" 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student2/s22srith/coe758/project 2/pong2/pong/ipcore_dir/icon.vhd" into library work
+Parsing VHDL file "/home/student2/s22srith/coe758/project 2/pong2/pong/ipcore_dir/ila.vhd" into library work
+Parsing VHDL file "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 121732 KB
+Fuse CPU Usage: 930 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture icon_a of entity icon [icon_default]
+Compiling architecture ila_a of entity ila [ila_default]
+Compiling architecture behavioral of entity vga
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 VHDL Units
+Built simulation executable /home/student2/s22srith/coe758/project 2/pong2/pong/vga_isim_beh.exe
+Fuse Memory Usage: 1217964 KB
+Fuse CPU Usage: 1000 ms
+GCC CPU Usage: 130 ms

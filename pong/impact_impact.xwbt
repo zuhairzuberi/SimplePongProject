@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/student2/s22srith/coe758/project 2/pong2/pong/impact.xsl
+OUTFILE=/home/student2/s22srith/coe758/project 2/pong2/pong/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/student2/s22srith/coe758/project 2/pong2/pong
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,999 @@
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.xst" -ofn "/home/student2/s22srith/coe758/project 2/pong2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student1/zzuberi/Desktop/COE758 Project 2/pong/vga.xst" -ofn "/home/student1/zzuberi/Desktop/COE758 Project 2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/student1/zzuberi/Desktop/COE758 Project 2/pong/vga.xst" -ofn "/home/student1/zzuberi/Desktop/COE758 Project 2/pong/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
